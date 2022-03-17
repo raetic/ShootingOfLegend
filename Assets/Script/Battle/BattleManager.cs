@@ -35,7 +35,7 @@ public class BattleManager : MonoBehaviour
         }
         
         or = ornn.GetComponent<Ornn>();
-        /// GameObject playerobj = Instantiate(players[data.curCharacter], new Vector3(0, -3, 0), transform.rotation);
+         GameObject playerobj = Instantiate(players[data.curCharacter], new Vector3(0, -3, 0), transform.rotation);
         player =  GameObject.FindWithTag("Player").GetComponent<Player>();
         pobj = GameObject.FindWithTag("Player");
         stage = 1;

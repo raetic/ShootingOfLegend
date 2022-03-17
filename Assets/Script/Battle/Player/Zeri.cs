@@ -17,6 +17,7 @@ public class Zeri : MonoBehaviour
     [SerializeField] GameObject r;
     float etime;
     float curx;
+    [SerializeField] GameObject reffect;
 
     // Start is called before the first frame update
     void Start()
@@ -201,13 +202,14 @@ public class Zeri : MonoBehaviour
         rtime += 5;
         myPlayer.AS += 0.7f;
         myPlayer.speed += 3;
+        reffect.SetActive(true);
 
-    
     }
     void skill3off()
     {
         myPlayer.AS -= 0.7f;
         myPlayer.speed -= 3;
+        reffect.SetActive(false);
     }
   
    IEnumerator Rnormal()

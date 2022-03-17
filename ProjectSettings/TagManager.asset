@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Shootable
+  - PlayerAttack
+  - EnemyArrow
+  - Item
+  - Enemy
+  - tower
+  - ArrowBorder
+  - Skill
+  - Border
+  - feather
   layers:
   - Default
   - TransparentFX
