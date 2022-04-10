@@ -10,6 +10,8 @@ public class MainManager : MonoBehaviour
     public void GoBattle()
     {
         Debug.Log("a");
+
+
         SceneManager.LoadScene(1);
     }
     void Start()
