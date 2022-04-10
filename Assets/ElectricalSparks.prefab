@@ -11,6 +11,7 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1000011396044746}
   m_IsPrefabAsset: 1
+
 --- !u!1 &1000011396044746
 GameObject:
   m_ObjectHideFlags: 0
