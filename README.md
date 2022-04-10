@@ -16,18 +16,20 @@
 
 
 ![애쉬](https://user-images.githubusercontent.com/83604180/162599172-21e47870-c6a2-495b-81b5-65be24fdaa1e.gif)
+
 ![애쉬3](https://user-images.githubusercontent.com/83604180/162599166-3f551f07-722f-46e4-a0b5-507f83313830.gif)
 ![애쉬2](https://user-images.githubusercontent.com/83604180/162599165-141dec52-ce2a-4024-bab9-9cdbb3440420.gif)
 
 가장 기본이 되는 캐릭터입니다.
 
 
-
+Cancel changes
 
 - ### 드레이븐
 
 
 ![드븐](https://user-images.githubusercontent.com/83604180/162599242-be1308a3-85fc-4001-898a-0e0906460879.gif)
+
 ![드븐2](https://user-images.githubusercontent.com/83604180/162599243-98c2020e-1b08-48a6-8ace-a4cca4b718f2.gif)
 ![드븐3](https://user-images.githubusercontent.com/83604180/162599245-4ff4c79f-7977-4868-8d99-db14852385d7.gif)
 
@@ -40,6 +42,7 @@
 
 
 ![자야](https://user-images.githubusercontent.com/83604180/162599313-c38780f3-9700-4722-a9f3-1b0e941ab4ff.gif)
+
 ![자야2](https://user-images.githubusercontent.com/83604180/162599317-2ed18ffb-6eda-4977-82df-a3e021999ac0.gif)
 ![자야3](https://user-images.githubusercontent.com/83604180/162599319-87935f03-279c-48d8-88be-7010a76d4165.gif)
 
@@ -51,6 +54,7 @@
 - ### 제리
 
 ![제리](https://user-images.githubusercontent.com/83604180/162599330-b5f7a5e8-405f-4df2-9e9a-f6ac96d1da24.gif)
+
 ![제리2](https://user-images.githubusercontent.com/83604180/162599337-855ea4ce-e5b2-459b-b709-6ade316da06e.gif)
 ![제리3](https://user-images.githubusercontent.com/83604180/162599338-7d432643-7db9-485a-8d63-ebac2e60f0fd.gif)
 
