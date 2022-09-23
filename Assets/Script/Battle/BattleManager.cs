@@ -24,6 +24,7 @@ public class BattleManager : MonoBehaviour
     [SerializeField] Text stageT;
     Data data;
     [SerializeField] GameObject[] players;
+    [SerializeField] CoolManager[] skillsCoolByKeyboard;
     void Awake()
     {
         string path = Path.Combine(Application.persistentDataPath, "Data.json");
@@ -66,7 +67,21 @@ public class BattleManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Q)&&skillsCoolByKeyboard[0].canUseSkill())
+        {
+            skillsCoolByKeyboard[0].skill1();
+            skillsCoolByKeyboard[0].StartCoolTime();
+        }
+        if (Input.GetKeyDown(KeyCode.W) && skillsCoolByKeyboard[1].canUseSkill())
+        {
+            skillsCoolByKeyboard[1].skill2();
+            skillsCoolByKeyboard[1].StartCoolTime();
+        }
+        if (Input.GetKeyDown(KeyCode.E) && skillsCoolByKeyboard[2].canUseSkill())
+        {
+            skillsCoolByKeyboard[2].skill3();
+            skillsCoolByKeyboard[2].StartCoolTime();
+        }
     }
     public void goHome()
     {

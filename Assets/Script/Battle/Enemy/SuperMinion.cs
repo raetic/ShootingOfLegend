@@ -12,7 +12,6 @@ public class SuperMinion : MonoBehaviour
     [SerializeField] GameObject bullet;
     [SerializeField] GameObject Minion;
     [SerializeField] int[] patterncount;
-    [SerializeField] GameObject Lazor;
     int count;
     bool p4;
     Vector3 curVector;
@@ -25,7 +24,6 @@ public class SuperMinion : MonoBehaviour
     }
     void PatternThink()
     {
-        Lazor.SetActive(false);
         myEnemy.isMove = true;
         count = 0;
         if (ulticount < 5)
@@ -111,17 +109,11 @@ public class SuperMinion : MonoBehaviour
     }
     void pattern3()
     {
-        Invoke("PatternThink", 5);
-        Lazor.SetActive(true);
+        Invoke("PatternThink", 2);      
         GameObject S = Instantiate(Shiled, AttackPoint[0].transform.position, transform.rotation);
         S.GetComponent<MinionShiled>().S();
-        Invoke("LazorOff", 3);
         S.GetComponent<Rigidbody2D>().AddForce(new Vector2(myEnemy.player.transform.position.x-transform.position.x,
         myEnemy.player.transform.position.y - transform.position.y).normalized*300f);
-    }
-    void LazorOff()
-    {
-        Lazor.SetActive(false);
     }
     Vector3 pVector;
     void pattern4()

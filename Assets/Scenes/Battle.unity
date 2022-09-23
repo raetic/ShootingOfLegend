@@ -3639,6 +3639,10 @@ MonoBehaviour:
   - {fileID: 19782690233700081, guid: 244965a3bf0632845b6ab74245fb8592, type: 3}
   - {fileID: 8274262254774506718, guid: d2bd9f02c1aceea47b73636ba31109ba, type: 3}
   - {fileID: 8798294306439044075, guid: c3699d7cf5b5c0645a38b7030d8e0af3, type: 3}
+  skillsCoolByKeyboard:
+  - {fileID: 811491027}
+  - {fileID: 1901831805}
+  - {fileID: 618641838}
 --- !u!4 &945868328
 Transform:
   m_ObjectHideFlags: 0

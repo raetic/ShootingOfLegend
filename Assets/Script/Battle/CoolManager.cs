@@ -80,7 +80,11 @@ public class CoolManager : MonoBehaviour
             }           
         }
     }
-
+    public bool canUseSkill()
+    {if (butt.enabled)
+            return true;
+        else return false;
+    }
     public void StartCoolTime()
     {
         leftTime = coolTime;
